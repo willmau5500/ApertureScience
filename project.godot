@@ -10,9 +10,16 @@ config_version=5
 
 [application]
 
-config/name="Anima - fragmentos"
+config/name="ApertureScience"
+run/main_scene="uid://dapblfneq0kc5"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameState="*res://GameState.gd"
+DialogManager="*res://DialogManager.gd"
+SceneLoader="*res://SceneLoader.gd"
 
 [physics]
 

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b2awem1201x1t"]
+
+[ext_resource type="Script" uid="uid://bd0p3wi8ufd1s" path="res://Door.gd" id="1_yfgsh"]
+
+[node name="Node2D" type="Area2D" unique_id=1481810787]
+script = ExtResource("1_yfgsh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2117468996]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=755202847]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="." unique_id=71869258]
+offset_right = 40.0
+offset_bottom = 23.0
